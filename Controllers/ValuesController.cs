@@ -18,7 +18,7 @@ namespace Test1.Controllers
         // GET api/values/5
         public int Get(int id)
         {
-            return 100;
+            return id;
         }
 
         // POST api/values
