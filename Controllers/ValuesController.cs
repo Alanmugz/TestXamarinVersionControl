@@ -16,9 +16,9 @@ namespace Test1.Controllers
         }
 
         // GET api/values/5
-        public int Get(int id)
+        public string Get(int id)
         {
-            return id;
+            return "2c124e69-c0ec-4d64-8faf-31ec336bbd0b";
         }
 
         // POST api/values
@@ -29,13 +29,13 @@ namespace Test1.Controllers
         // PUT api/values/5
         public void Put(int id, [FromBody]string value)
         {
-        	Console.WriteLine("Inserted!!")
+			Console.WriteLine ("Inserted!!");
         }
 
         // DELETE api/values/5
         public void Delete(int id)
         {
-			Console.WriteLine("Deleted!!")
+			Console.WriteLine ("Deleted!!");
         }
     }
 }
