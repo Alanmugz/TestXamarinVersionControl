@@ -12,7 +12,7 @@ namespace Test1.Controllers
         // GET api/values
         public IEnumerable<string> Get()
         {
-            return new string[] { "Alan Mulligan", "John Murphy", "Mary O'Neil" };
+            return new string[] { "Alan Mulligan", "John Murphy", "Mary O'Neil", "Timmy McCarthy" };
         }
 
         // GET api/values/5
