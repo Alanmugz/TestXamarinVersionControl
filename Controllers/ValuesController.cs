@@ -34,6 +34,7 @@ namespace Test1.Controllers
         // DELETE api/values/5
         public void Delete(int id)
         {
+			Console.WriteLine("Deleted!!")
         }
     }
 }
