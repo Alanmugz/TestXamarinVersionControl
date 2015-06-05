@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Net;
@@ -12,7 +12,7 @@ namespace Test1.Controllers
         // GET api/values
         public IEnumerable<string> Get()
         {
-            return new string[] { "Alan", "John" };
+            return new string[] { "Alan Mulligan", "John Murphy", "Mary O'Niel" };
         }
 
         // GET api/values/5
