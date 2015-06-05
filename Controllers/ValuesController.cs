@@ -12,13 +12,13 @@ namespace Test1.Controllers
         // GET api/values
         public IEnumerable<string> Get()
         {
-            return new string[] { "Alan Mulligan", "John Murphy", "Mary O'Niel" };
+            return new string[] { "Alan Mulligan", "John Murphy", "Mary O'Neil" };
         }
 
         // GET api/values/5
-        public string Get(int id)
+        public int Get(int id)
         {
-            return "value";
+            return 100;
         }
 
         // POST api/values
